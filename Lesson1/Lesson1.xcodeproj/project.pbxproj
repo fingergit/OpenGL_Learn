@@ -15,6 +15,7 @@
 		BB4CF55C201D659F00C50F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4CF55B201D659F00C50F34 /* main.m */; };
 		BB4CF566201D659F00C50F34 /* Lesson1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4CF565201D659F00C50F34 /* Lesson1Tests.m */; };
 		BB4CF571201D659F00C50F34 /* Lesson1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4CF570201D659F00C50F34 /* Lesson1UITests.m */; };
+		BB4CF581201D6DC900C50F34 /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB4CF580201D6DC900C50F34 /* GLView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		BB4CF56C201D659F00C50F34 /* Lesson1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4CF570201D659F00C50F34 /* Lesson1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson1UITests.m; sourceTree = "<group>"; };
 		BB4CF572201D659F00C50F34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB4CF57E201D666A00C50F34 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BB4CF57F201D6DC900C50F34 /* GLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLView.h; sourceTree = "<group>"; };
+		BB4CF580201D6DC900C50F34 /* GLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		BB4CF540201D659F00C50F34 = {
 			isa = PBXGroup;
 			children = (
+				BB4CF57E201D666A00C50F34 /* README.md */,
 				BB4CF54B201D659F00C50F34 /* Lesson1 */,
 				BB4CF564201D659F00C50F34 /* Lesson1Tests */,
 				BB4CF56F201D659F00C50F34 /* Lesson1UITests */,
@@ -110,6 +115,8 @@
 				BB4CF557201D659F00C50F34 /* LaunchScreen.storyboard */,
 				BB4CF55A201D659F00C50F34 /* Info.plist */,
 				BB4CF55B201D659F00C50F34 /* main.m */,
+				BB4CF57F201D6DC900C50F34 /* GLView.h */,
+				BB4CF580201D6DC900C50F34 /* GLView.m */,
 			);
 			path = Lesson1;
 			sourceTree = "<group>";
@@ -266,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB4CF551201D659F00C50F34 /* ViewController.m in Sources */,
+				BB4CF581201D6DC900C50F34 /* GLView.m in Sources */,
 				BB4CF55C201D659F00C50F34 /* main.m in Sources */,
 				BB4CF54E201D659F00C50F34 /* AppDelegate.m in Sources */,
 			);
