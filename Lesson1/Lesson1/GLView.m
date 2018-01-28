@@ -45,8 +45,8 @@
 
 - (void)_initGL {
     [self _initContext];
-    [self _setupRenderBuffer];
     [self _setupFrameBuffer];
+    [self _setupRenderBuffer];
 }
 
 // 创建OpenGL上下文
